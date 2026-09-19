@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOD REAL VIP 👑</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1702891030770213');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1702891030770213&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <style>
+        :root {
+            --bg: #07090e;
+            --card-bg: rgba(18, 26, 43, 0.75);
+            --primary: #00ff87;
+            --primary-glow: rgba(0, 255, 135, 0.4);
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            background-image: 
+                radial-gradient(circle at 50% 10%, rgba(0, 255, 135, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 50% 90%, rgba(96, 239, 255, 0.08) 0%, transparent 50%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-main);
+            padding: 16px;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 390px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 16px;
+        }
+
+        /* Live Badge */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(0, 255, 135, 0.08);
+            border: 1px solid rgba(0, 255, 135, 0.3);
+            border-radius: 30px;
+            padding: 6px 14px;
+            font-size: 11px;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+        }
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--primary);
+            animation: pulse 1.4s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.85); }
+        }
+
+        /* Profile Photo */
+        .avatar-wrap {
+            position: relative;
+            width: 115px;
+            height: 115px;
+            margin-top: 4px;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--primary);
+            box-shadow: 0 0 30px var(--primary-glow);
+        }
+
+        /* Title & Subtitle */
+        .main-title {
+            font-size: 28px;
+            font-weight: 900;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 15px rgba(0, 255, 135, 0.3);
+        }
+
+        .sub-title {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: -8px;
+            font-weight: 500;
+        }
+
+        /* Line Divider */
+        .divider {
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+        }
+
+        /* Standard CTA Link Button for Best Pixel Tracking */
+        .cta-link {
+            width: 100%;
+            display: block;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #00ff87 0%, #00b894 100%);
+            color: #030712;
+            font-size: 19px;
+            font-weight: 900;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: 1px;
+            border-radius: 14px;
+            box-shadow: 0 0 25px var(--primary-glow);
+            animation: glow 1.8s infinite;
+            transition: transform 0.15s ease;
+        }
+
+        .cta-link:active {
+            transform: scale(0.98);
+        }
+
+        @keyframes glow {
+            0% { box-shadow: 0 0 15px rgba(0, 255, 135, 0.4); }
+            50% { box-shadow: 0 0 32px rgba(0, 255, 135, 0.85); }
+            100% { box-shadow: 0 0 15px rgba(0, 255, 135, 0.4); }
+        }
+
+        /* Timer Card */
+        .timer-box {
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid rgba(0, 255, 135, 0.2);
+            border-radius: 16px;
+            padding: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        .timer-head {
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .timer-clock {
+            font-size: 30px;
+            font-weight: 900;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(0, 255, 135, 0.3);
+        }
+
+        .timer-text {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            gap: 10px;
+            margin-top: 2px;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 12px 6px;
+            border-radius: 12px;
+        }
+
+        .stat-val {
+            font-size: 17px;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .stat-lbl {
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 2px;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            font-size: 11px;
+            color: #475569;
+            margin-top: 6px;
+            line-height: 1.5;
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Live Status -->
+        <div class="badge">
+            <span class="dot"></span> VIP ACCESS LIVE
+        </div>
+
+        <!-- Profile Avatar -->
+        <div class="avatar-wrap">
+            <img src="https://i.ibb.co/My5FNkF8/IMG-20260903-020753-298.jpg" alt="GOD REAL VIP" class="avatar">
+        </div>
+
+        <!-- Heading -->
+        <h1 class="main-title">GOD REAL VIP 👑</h1>
+        <p class="sub-title">Your Official Premium Destination 🎰</p>
+
+        <div class="divider"></div>
+
+        <!-- Direct Standard A Tag Link with Onclick Pixel Track -->
+        <a href="https://telegram.me/+NJnwu1kr8SU4YWQ1" 
+           onclick="if(typeof fbq==='function'){fbq('track', 'Subscribe');}" 
+           class="cta-link">
+           JOIN NOW
+        </a>
+
+        <!-- Timer Box -->
+        <div class="timer-box">
+            <div class="timer-head">FREE JOINING CLOSES IN</div>
+            <div class="timer-clock" id="timer">00:15</div>
+            <div class="timer-text">Limited time offer for new members.</div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-val">4K+</div>
+                <div class="stat-lbl">MEMBERS</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">24/7</div>
+                <div class="stat-lbl">SUPPORT</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">100%</div>
+                <div class="stat-lbl">SECURE</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>© 2026 All Rights Reserved.</div>
+            <div>Ads Managed By <a href="https://t.me/senorita_xoxo" target="_blank">@senorita_xoxo</a></div>
+        </div>
+    </div>
+
+    <!-- Timer Script -->
+    <script>
+        var timeLeft = 15;
+        var timerDisplay = document.getElementById('timer');
+        var countdown = setInterval(function() {
+            if (timeLeft <= 0) {
+                clearInterval(countdown);
+                timerDisplay.innerText = "00:00";
+            } else {
+                timeLeft--;
+                timerDisplay.innerText = "00:" + (timeLeft < 10 ? '0' + timeLeft : timeLeft);
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>
